@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-img img{
+    width: 220px;
+    height: 230px;
+    margin-top: 35px;
+}
+.home-list{
+    position: relative;
+    z-index: 3;
+}
+.home-list a{
+    text-decoration: none;
+}
+#play, #about, #leaderboard{
+    width: 268px;
+    height: 80px;
+    background-color:#168990;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DCE1E1;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    z-index:2;
+}
+#middle-line{
+    position: absolute;
+    display: inline-block;
+    width: 12px;
+    height: 323px;
+    left: 46%;
+    background-color: #48100C;
+    border-radius: 10px;
+    z-index: 1;
+}
