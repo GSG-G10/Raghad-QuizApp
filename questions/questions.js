@@ -36,20 +36,6 @@ function addQuestion(){
     })
 }
 addQuestion()
-document.querySelector("#next-button").addEventListener('click', moveToNext)
-function moveToNext(){
-    let x = document.querySelectorAll("choiceCheck").values
-    console.log(x)
-    // x.forEach(element => {
-    //     console.log(element.textContent)        
-    // });
-    
-
-    // }
-    // else{
-    //     countScore()
-    //     addQuestion()
-    // }
-}
+document.querySelector("#next-button").addEventListener('click', addQuestion)
 
         

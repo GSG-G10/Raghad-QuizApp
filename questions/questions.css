@@ -81,7 +81,6 @@ body{
     font-size: 18px;
     padding: 10px;
     text-align: center;
-    border: none;
 }
 .choice:checked{
     width: 50%;
